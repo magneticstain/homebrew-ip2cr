@@ -5,12 +5,12 @@
 class Ip2cr < Formula
   desc "IP-2-CloudResource: correlate an IP address with its associated cloud resource"
   homepage "https://github.com/magneticstain/ip-2-cloudresource"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
-    url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v1.0.4/ip-2-cloudresource_Darwin_x86_64_v1.0.4.tar.gz"
-    sha256 "10a2f7bf2ef31e383a8ce9c0c06a82209dcebb4c3ba9afa9cf6e95a2bc9111b9"
+    url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v1.0.5/ip-2-cloudresource_Darwin_x86_64_v1.0.5.tar.gz"
+    sha256 "fe5e438793916c5ac3f454d0af58e654b0a5b7b72baa93378e78f04d1005a11a"
 
     def install
       bin.install "ip2cr"
@@ -29,8 +29,8 @@ class Ip2cr < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v1.0.4/ip-2-cloudresource_Linux_x86_64_v1.0.4.tar.gz"
-      sha256 "a0f1ae94aacdf158aa591a5ee735a46da37968e86eb95861ee2f0a1bae8294d6"
+      url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v1.0.5/ip-2-cloudresource_Linux_x86_64_v1.0.5.tar.gz"
+      sha256 "21dd49ca146ed0e1aaad576ddc3ed0637f5f3aa232e0dae0fdbd6012d1357d09"
 
       def install
         bin.install "ip2cr"
