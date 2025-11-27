@@ -3,7 +3,7 @@ cask "ip2cr" do
   name "ip2cr"
   desc "IP-2-CloudResource: correlate an IP address with its associated cloud resource"
   homepage "https://github.com/magneticstain/ip-2-cloudresource"
-  version "3.1.5-rc1"
+  version "3.1.5-rc2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ip2cr" do
   on_macos do
     on_intel do
       url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v#{version}/ip-2-cloudresource_#{version}_darwin_amd64.tar.gz"
-      sha256 "5a8eea3f720f0c6e48177e4a4e81c19a5982bfcb7afea64c9730d9b85dd5e7ba"
+      sha256 "4778af61620f867bc960fe414f3722231903dd36f3e01c3ee1be98fdac36e69f"
     end
     on_arm do
       url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v#{version}/ip-2-cloudresource_#{version}_darwin_arm64.tar.gz"
-      sha256 "cda3deade0123a43b8f235691298a4167983b0c4a4a46c98475a6f8e5e9d331d"
+      sha256 "494ada3e93953d06a3e5286500deb782aa65e5ccb38bc6137600aaaf0ba47550"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v#{version}/ip-2-cloudresource_#{version}_linux_amd64.tar.gz"
-      sha256 "0f120be0d126f4663746a9c526e5a46e01808879e953186e52b5d11d3bd0000d"
+      sha256 "4437c72d26bf0e3eb28ce38ddc1e378c7184faeafcb3f69edc7e79cd9bee8333"
     end
     on_arm do
       url "https://github.com/magneticstain/ip-2-cloudresource/releases/download/v#{version}/ip-2-cloudresource_#{version}_linux_arm64.tar.gz"
-      sha256 "96a98435ccd18a7952fee46bb45a5199ee1c239a6a71c15dc4fb65da4c646cfe"
+      sha256 "dc6efbfdc7a1c57122db2e2b87f89a064ebb0c294f38a42132d4964ff43794ce"
     end
   end
 
